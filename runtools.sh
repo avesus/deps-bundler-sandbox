@@ -4,4 +4,8 @@ node bundler-srv.js
 
 tsc --watch --isolatedModules --pretty --skipDefaultLibCheck --listFiles --target es5 --moduleResolution node --module commonjs --inlineSourceMap --inlineSources --noResolve --jsx react --removeComments --strictNullChecks --experimentalDecorators --emitDecoratorMetadata --project . --outDir . --rootDir src
 
+webpack-dev-server -d ./ma.js --hot --inline
+
+webpack -d --watch ./ma.js app-bundle.js
+
 
