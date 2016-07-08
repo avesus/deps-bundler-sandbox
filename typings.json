@@ -1,0 +1,5 @@
+{
+ "globalDependencies": {
+   "snabbdom-jsx": "./src/ambient.d.ts"
+ }
+}

@@ -1,0 +1,9 @@
+'use strict';
+
+console.log('b starting');
+exports.done = false;
+var a = require('./a.js');
+console.log('in b, a.done = %j', a.done);
+exports.done = true;
+console.log('b done');
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9fYi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLFFBQVEsR0FBUixDQUFZLFlBQVo7QUFDQSxRQUFRLElBQVIsR0FBZSxLQUFmO0FBQ0EsSUFBTSxJQUFJLFFBQVEsUUFBUixDQUFWO0FBQ0EsUUFBUSxHQUFSLENBQVksbUJBQVosRUFBaUMsRUFBRSxJQUFuQztBQUNBLFFBQVEsSUFBUixHQUFlLElBQWY7QUFDQSxRQUFRLEdBQVIsQ0FBWSxRQUFaIiwiZmlsZSI6Il9iLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ2Igc3RhcnRpbmcnKTtcbmV4cG9ydHMuZG9uZSA9IGZhbHNlO1xuY29uc3QgYSA9IHJlcXVpcmUoJy4vYS5qcycpO1xuY29uc29sZS5sb2coJ2luIGIsIGEuZG9uZSA9ICVqJywgYS5kb25lKTtcbmV4cG9ydHMuZG9uZSA9IHRydWU7XG5jb25zb2xlLmxvZygnYiBkb25lJyk7XG5cbiJdfQ==

@@ -1,0 +1,14 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    ["typecheck", {
+      "disable": {
+        "production": true
+      }
+    }],
+    "syntax-flow",
+    "transform-flow-strip-types",
+    "transform-react-jsx",
+    ["css-in-js", { "vendorPrefixes": true, "bundleFile": "./qp.css" }]
+  ]
+}
